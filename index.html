@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container" id="container-left">
+        <h1 id="logo">Randy Setiawan</h1>
+        <div id="content">
+            <div id="content-top">
+                <div id="content-top-top">
+                    <h1>Sign In</h1>
+                    <br>
+                    <p>if you don't have an account yet <br> You can <a href="#">Register here !</a></p>
+                </div>
+                <div id="content-top-bottom">
+                    <form action="#">
+                        <div id="form-top">
+                            <div class="field" style="margin-bottom: 49px;">
+                                <span class="label">Email</span>
+                                <br>
+                                <i class="fa fa-envelope"></i>
+                                <input type="text" placeholder="Enter your email address">
+                            </div>
+                            <div class="field">
+                                <span class="label">Password</span>
+                                <br>
+                                <i class="fa fa-lock"></i>
+                                <input id="password-input" type="password" placeholder="Enter your password">
+                                <i id="eye-icon" class="fa fa-eye-slash" onclick="togglePasswordVisibility()"></i>
+                            </div>
+                        </div>
+                        <div id="form-middle">
+                            <div id="remember-me">
+                                <input id="remember-checkbox" type="checkbox">
+                                <span>Remember me</span>
+                            </div>
+                            <a href="#">Forgot Password ?</a>
+                        </div>
+                        <div id="form-bottom">
+                            <button type="submit">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- <p>or continue with</p> -->
+            <div id="content-bottom">
+
+            </div>
+        </div>
+    </div>
+    <div class="container" id="container-right">
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

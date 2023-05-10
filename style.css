@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+} 
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container-right {
+    background-color: #0C21C1;
+}
+
+#container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo {
+    margin-top: 31px;
+    margin-left: 61px;
+    font-size: 20px;
+}
+
+#content {
+    margin: auto;
+    width: 431px;
+}
+
+#content-top-top h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#content-top-top p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#content-top-top p a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #0C21C1;
+    text-decoration: none;
+}
+
+#content-top-bottom {
+    margin-top: 52px;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 13px;
+    color: #999999;
+}
+
+.field i {
+    margin-top: 15px;
+    color: #000842;
+}
+
+.field input {
+    margin-top: 11px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1.5px solid #999999;
+    outline: none;
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000842;
+}
+
+#password-input {
+    width: 87.5%;
+}
+
+.field input:focus {
+    border-bottom: 1.5px solid #000842;
+}
+
+.field input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000842;
+}
+
+#form-middle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#remember-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#remember-checkbox {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+#remember-me span {
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#form-middle a {
+    margin-left: auto;
+    font-weight: 300;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+#form-bottom {
+    margin-top: 60px;
+    width: 100%;
+    background: #0C21C1;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 17px;
+}
