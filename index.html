@@ -15,7 +15,13 @@
 
 <body>
     <div class="container" id="container-left">
-        <h1 id="logo">Randy Setiawan</h1>
+        <div id="logo-and-phone-number-mobile">
+            <h1 id="logo">Randy Setiawan</h1>
+            <div id="phone-number-mobile">
+                <i class="fa fa-phone"></i>
+                <span>+94 0116 789 754</span>
+            </div>
+        </div>        
         <div id="content">
             <div id="content-top">
                 <div id="content-top-top">
@@ -26,13 +32,13 @@
                 <div id="content-top-bottom">
                     <form action="#">
                         <div id="form-top">
-                            <div class="field" style="margin-bottom: 49px;">
+                            <div class="field">
                                 <span class="label">Email</span>
                                 <br>
                                 <i class="fa fa-envelope"></i>
                                 <input type="text" placeholder="Enter your email address">
                             </div>
-                            <div class="field">
+                            <div class="field" style="margin-top: 49px;">
                                 <span class="label">Password</span>
                                 <br>
                                 <i class="fa fa-lock"></i>
@@ -48,19 +54,39 @@
                             <a href="#">Forgot Password ?</a>
                         </div>
                         <div id="form-bottom">
-                            <button type="submit">Login</button>
+                            <button id="login-button" type="submit">Login</button>
                         </div>
                     </form>
                 </div>
             </div>
-            <!-- <p>or continue with</p> -->
+            <p id="or-continue-with">or continue with</p>
             <div id="content-bottom">
-
+                <a class="social-media-icon" href="#">
+                    <img src="./images/facebook-icon.png" alt="" srcset="">
+                </a>
+                <a class="social-media-icon" href="#">
+                    <img src="./images/github-icon.png" alt="" srcset="">
+                </a>
+                <a class="social-media-icon" href="#">
+                    <img src="./images/google-icon.png" alt="" srcset="">
+                </a>
             </div>
         </div>
     </div>
     <div class="container" id="container-right">
-
+        <div id="phone-number">
+            <i class="fa fa-phone"></i>
+            <span>+94 0116 789 754</span>
+        </div>
+        <div id="content2">
+            <img src="./images/hero.png" alt="">
+            <div id="content2-desc">
+                <h1>Sign in to name</h1>
+                <p>
+                    Lorem Ipsum is simply
+                </p>
+            </div>            
+        </div>
     </div>
 </body>
 <script src="script.js"></script>
